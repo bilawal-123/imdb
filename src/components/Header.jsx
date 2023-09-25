@@ -5,7 +5,7 @@ import { TbHome2, TbInfoCircle } from "react-icons/tb";
 import DarkModeSwitch from "./DarkModeSwitch";
 export default function Header() {
   return (
-    <nav className="flex justify-between items-center px-4 py-2">
+    <nav className="flex justify-between items-center px-2  py-3 mb-3 max-w-6xl mx-auto">
       <ul className="flex gap-3">
         <li>
           <MenuItem title="home" address="/" Icon={TbHome2} />
