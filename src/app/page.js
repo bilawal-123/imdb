@@ -18,7 +18,7 @@ export default async function Home({ searchParams }) {
   const results = data.results;
   console.log(results);
   return (
-    <main>
+    <main className="p-2">
       <MovieResults results={results} />
     </main>
   );
