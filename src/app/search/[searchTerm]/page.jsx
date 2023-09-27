@@ -1,4 +1,4 @@
-import MovieResults from "@/components/MovieResults";
+import MovieResults from "../../../components/MovieResults";
 
 export default async function SearchPage({ params }) {
   //   const API_KEY = process.env.API_KEY;

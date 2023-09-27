@@ -1,4 +1,4 @@
-import MovieResults from "@/components/movieResults";
+import MovieResults from "../components/movieResults";
 import next from "next";
 
 const API_KEY = process.env.API_KEY;
