@@ -4,7 +4,7 @@ import { TbThumbUp } from "react-icons/tb";
 export default function MovieCard({ result }) {
   return (
     <div className="group border p-2 rounded-lg hover:shadow-md shadow-slate-300 transition-shadow duration-200">
-      <Link href={`/detail/${result.id}`}>
+      <Link href={`/movie/${result.id}`}>
         <Image
           src={`https://image.tmdb.org/t/p/original/${
             result.backdrop_path || result.poster_path
