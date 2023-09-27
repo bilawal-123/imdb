@@ -6,7 +6,7 @@ export default function MenuItem({ title, address, Icon }) {
       <span className="text-2xl sm:hidden">
         <Icon />
       </span>
-      <span className="hidden sm:inline uppercase">{title}</span>
+      <span className="hidden sm:inline capitalize">{title}</span>
     </Link>
   );
 }

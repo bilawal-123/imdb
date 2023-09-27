@@ -16,9 +16,10 @@ export default function MovieCard({ result }) {
           style={{
             maxWith: "100%",
             height: "auto",
+            maxHeight: "150px",
           }}
           alt="Movie Poster"
-          className="rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
+          className="object-cover rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
         ></Image>
       </Link>
       {/* <p>{result.id}</p> */}
